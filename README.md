@@ -1,8 +1,6 @@
 # NaijaHacks 2019
 
 ## Team REMA - Result Management and Analysis
-* Day1 - Intro(Completed - check branch)
-* Day2 - UI(Compketed - check branch)
 
 ### Problems
 * Poor result management system
