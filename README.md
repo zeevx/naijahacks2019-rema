@@ -2,6 +2,8 @@
 
 ## Team REMA - Result Management and Analysis
 
+### DAY1 - INTRO
+
 ### Problems
 * Poor result management system
 * Poor learning and teaching method
