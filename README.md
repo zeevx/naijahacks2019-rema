@@ -3,8 +3,8 @@
 ## Team REMA - Result Management and Analysis
 
 **Check this branches to see progress**
-* Day1 - Intro(Completed - check branch)
-* Day2 - UI(Completed - check branch)
+* [Day1 - Intro(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day1-intro)
+* [Day2 - UI(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day1-intro)
 
 ### ScreenShots for day 2
 
