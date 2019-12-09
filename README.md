@@ -13,5 +13,5 @@
 
 ### Team Members
 * Adams Paul - Full stack web developer/IOT systems Engineer
-* Olarewaju Mojeed - Android Developer
-* Ajewole Ayomide - C++ Developer
+* Olarewaju Mojeed - C++ Developer
+* Ajewole Ayomide - Android Developer
