@@ -11,7 +11,7 @@
 ![HomePage Screenshots](/screenshots/Home_page_screenshot.png)
 
 **Login Page**
-![LoginPage Screenshots](/images/Login_page_screenshot.png)
+![LoginPage Screenshots](/screenshots/Login_page_screenshot.png)
 
 **Registration Page**
-![RegisterPage Screenshots](/images/Register_page_screenshot.png)
+![RegisterPage Screenshots](/screenshots/Register_page_screenshot.png)
