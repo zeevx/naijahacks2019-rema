@@ -2,7 +2,7 @@
 
 ## Team REMA - Result Management and Analysis
 
-### Database Schema and APIs
+### Major database Schema and APIs
 
 ````
 schools:
