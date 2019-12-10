@@ -4,9 +4,10 @@
 
 **Check this branches to see progress**
 * [Day1 - Intro(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day1-intro)
-* [Day2 - UI(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day1-intro)
-
-### ScreenShots for day 2
+* [Day2 - UI(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day2-ui)
+* [Day2 - UI(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day3-api)
+//
+### ScreenShots for UI
 
 **Home Page**
 ![HomePage Screenshots](/screenshots/Home_page_screenshot.png)
