@@ -60,6 +60,8 @@ Schema::create('analysis', function (Blueprint $table) {
             $table->string('email')->unique();
             $table->timestamps();
 ````
+
+````
 Register:
 
 Schema::create('users', function (Blueprint $table) {
