@@ -56,8 +56,8 @@ Schema::create('result', function (Blueprint $table) {
 Analysis:
 Schema::create('analysis', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('student')->unique();
-            $table->string('email')->unique();
+            $table->string('student');
+            $table->string('email');
             $table->timestamps();
 ````
 
