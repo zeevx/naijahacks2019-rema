@@ -26,7 +26,7 @@
     <link href="{{url('public/css/plugins.css')}}" rel="stylesheet">
 
     <!--====== Custom CSS for themes =======-->
-    <link href="{{url('public/style.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/style.css')}}" rel="stylesheet">
     
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -49,16 +49,16 @@
 
                             <h1>Result Management and Analysis</h1>
                             <p>Improving the standards of the default learning and teaching processes..</p>
-                            <form class="product-search-form" action="login.html" method="get">
+                            <form class="product-search-form" action="{{url('login')}}" method="get">
                                 <div class="form-group">
-                                    <input class="form-controllar" name="key" placeholder="Type Access Key" type="text">
+                                    <input class="form-controllar" name="key" placeholder="Type your email address" type="text">
                                     <button class="btn btn-default btn-primary" type="submit">Proceed</button>
 
                                  </div>
                                 </br>
                                 <div class="divider-or text-center">
                                         <span>or</span>
-                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="register.html">Get Access Key</a></div>
+                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="{{url('register')}}">Get Access Key</a></div>
 
                             </form>
                             <!--/.product-search-form-->
