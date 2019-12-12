@@ -22,6 +22,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="login-form-area">
                         <form method="POST" action="{{ route('login') }}">
+                            @csrf
                             <p><input id="email" type="email" placeholder="Enter your email address" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                                 @error('email')
