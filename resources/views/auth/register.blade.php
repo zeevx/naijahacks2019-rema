@@ -38,6 +38,18 @@
                                         @enderror
                                     </div>
                                 </p>
+                                <p>
+
+                                        <div class="">
+                                            <input placeholder="School Name" id="s_name" type="text" class="form-control @error('s_name') is-invalid @enderror" name="s_name" value="{{ old('s_name') }}" required autocomplete="s_name" autofocus>
+            
+                                            @error('s_name')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
+                                        </div>
+                                    </p>
                             <p> 
 
                                 <div class="">
