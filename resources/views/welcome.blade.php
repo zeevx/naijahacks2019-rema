@@ -1,100 +1,169 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+    <!--========= Basic Page Needs =========-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <title>Laravel</title>
+    <!--========== Specific Meta ==========-->
+    <meta name="description" content="REMA">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!--======== Page Title===========-->
+    <title>REMA - Result Management and Analysis</title>
+    
+    <!--========== Favicons =========-->
+    <link rel="shortcut icon" href="{{url('public/images/favicon.ico')}}">
+    
+    <!--======== Font icon Css ============-->
+    <link href="{{url('public/html/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{url('public/html/css/themify-icons.css')}}" rel="stylesheet">
+    
+    <!--======= Bootstrap Main Css =============-->
+    <link href="{{url('public/html/css/bootstrap.min.css')}}" rel="stylesheet">
+    
+    <!--====== Plugins Css ================-->
+    <link href="{{url('css/plugins.css')}}" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!--====== Custom CSS for themes =======-->
+    <link href="{{url('style.css')}}" rel="stylesheet">
+    
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="{{url('js/vendor/modernizr-2.8.3.min.js')}}"></script>
+</head>
+<body>
+    
+    
+    <!--====Home Search Section
+    ====================================-->
+    <div id="home-search-section" class="home-search-section-area bg-image home-header-one" style="background-image: url(images/welcome-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
 
-            .full-height {
-                height: 100vh;
-            }
+                    <div class="welcome-text text-center tb">
+                        <div class="tb-cell">
+                                <img class="img-resposive" src="logo2.png"/>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+                            <h1>Result Management and Analysis</h1>
+                            <pr themes =======-->
+    <link href="{{url('style.css')}}" rel="stylesheet">
+    
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    
+    
+    <!--====Home Search Section
+    ====================================-->
+    <div id="home-search-section" class="home-search-section-area bg-image home-header-one" style="background-image: url(images/welcome-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
 
-            .position-ref {
-                position: relative;
-            }
+                    <div class="welcome-text text-center tb">
+                        <div class="tb-cell">
+                                <img class="img-resposive" src="logo2.png"/>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+                            <h1>Result Management and Analysis</h1>
+                            <p>Improving the standards of the default learning and teaching processes..</p>
+                            <form class="product-search-form" action="{{url('login')}}" method="get">
+                                <div class="form-group">
+                                    <input class="form-controllar" name="key" placeholder="Type Email Address" type="text">
+                                    <button class="btn btn-default btn-primary" type="submit">Proceed</button>
 
-            .content {
-                text-align: center;
-            }
+                                 </div>
+                                </br>
+                                <div class="divider-or text-center">
+                                        <span>or</span>
+                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="{{url('login')}}">Get Access Key</a></div>
 
-            .title {
-                font-size: 84px;
-            }
+                            </form>
+                            <!--/.product-search-form-->
+                                                </br></br></br></br></br></br></br></br>
+                        </div><!--/.tb-cell-->
+                    </div><!--/.welcome-text-->
+                </div><!--/.col-lg-12-->
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </divr themes =======-->
+    <link href="style.css" rel="stylesheet">
+    
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    
+    <!--====Services Section
+    ====================================-->
+    <section id="services-section" class="services-section-area s-pd1">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-lg-8">
+				    <div class="section-heading-area text-center">
+					    <h2 class="section-heading text-capitalize">This is what we offer you</h2>
+				    </div><!--/.section-heading-area--> 
+				</div><!--/.col-lg-8-->
+			</div><!--/.row-->
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="single-service text-center">
+                        <div class="icon">
+				            <img src="images/icon/s-icon1.png" alt="icon">
+				        </div>
+						<h3>Storage</h3>
+						<p>We provide enough storage access for all your data, anytime and anywhere.</p>
+					</div><!--/.single-service-->
+				</div><!--/.col-lg-4-->
+				<div class="col-lg-4 col-md-4">
+					<div class="single-service text-center">
+                        <div class="icon">
+				            <img src="images/icon/s-icon2.png" alt="icon">
+				        </div><!--/.row-->
+						<h3>Security</h3>
+						<p>We provide optimal security for your data, we protect it from breaches and hacks.</p>
+					</div><!--/.single-service-->
+				</div><!--/.col-lg-4-->
+				<div class="col-lg-4 col-md-4">
+					<div class="single-service text-center">
+                        <div class="icon">
+				            <img src="images/icon/s-icon3.png" alt="icon">
+				        </div><!--/.row-->
+						<h3>Management & Analysis</h3>
+						<p>We give you the right tool to manage and analyze results uploaded.</p>
+					</div><!--/.single-service-->
+				</div><!--/.col-lg-4-->	
+			</div><!--/.row-->
+		</div><!--/.container-->
+	</section><!--/#services-section-->
+   
+    
+    <!-- Start footer area -->
+    <footer id="footer" class="site-footer">
+       
+        <!-- Start footer copyright area -->
+        <div class="footer-copyright-area bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            &copy; Designed by <a href="#">Team REMA - Naija Hacks</a> 
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </div><!--End footer copyright area -->
+    </footer><!--End footer area -->
+   
+    
+    
+</body>
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
 </html>
