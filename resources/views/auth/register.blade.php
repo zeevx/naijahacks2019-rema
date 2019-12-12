@@ -66,11 +66,11 @@
                                     <div class="">
                                     <input placeholder="Phone Number" id="name" type="tel" class="form-control" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
                              
-                                 @if ($errors->has('phone_number'))
+                                 @error('phone_number')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('phone_number') }}</strong>
+                                        <strong>{{ $message }}</strong>
                                     </span>
-                                @endif
+                                @enderror
                                 </div>
                             </p>
                             <p>
