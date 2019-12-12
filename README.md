@@ -7,7 +7,6 @@
 * [Day2 - UI(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day2-ui)
 * [Day3 - Database and APIs(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day3-api)
 * [Day4 - Implementation/Project(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day4-implement)
-* [Day5 - Integration(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day5-integration)
 
 
 
