@@ -6,7 +6,7 @@
 
 <!--=======Page Heading
     ===============================================-->
-    <section class="page-heading-section before-bg bg-image" style="background-image: url(http://bdevs.net/edulab/edulab/images/header/p-header3.jpg);">
+    <section class="page-heading-section before-bg bg-image" style="background-image: url({{url('public/images/header/p-header3.jpg')}});">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
