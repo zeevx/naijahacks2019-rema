@@ -16,22 +16,22 @@
     <link rel="shortcut icon" href="{{url('public/images/favicon.ico')}}">
     
     <!--======== Font icon Css ============-->
-    <link href="{{url('public/html/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{url('public/html/css/themify-icons.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/themify-icons.css')}}" rel="stylesheet">
     
     <!--======= Bootstrap Main Css =============-->
-    <link href="{{url('public/html/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/bootstrap.min.css')}}" rel="stylesheet">
     
     <!--====== Plugins Css ================-->
-    <link href="{{url('css/plugins.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/plugins.css')}}" rel="stylesheet">
 
     <!--====== Custom CSS for themes =======-->
-    <link href="{{url('style.css')}}" rel="stylesheet">
+    <link href="{{url('public/css/style.css')}}" rel="stylesheet">
     
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <script src="{{url('js/vendor/modernizr-2.8.3.min.js')}}"></script>
+    <script src="{{url('public/js/vendor/modernizr-2.8.3.min.js')}}"></script>
 </head>
 <body>
     
