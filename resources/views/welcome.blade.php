@@ -26,7 +26,7 @@
     <link href="{{url('public/css/plugins.css')}}" rel="stylesheet">
 
     <!--====== Custom CSS for themes =======-->
-    <link href="{{url('public/css/style.css')}}" rel="stylesheet">
+    <link href="{{url('public/style.css')}}" rel="stylesheet">
     
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -38,50 +38,27 @@
     
     <!--====Home Search Section
     ====================================-->
-    <div id="home-search-section" class="home-search-section-area bg-image home-header-one" style="background-image: url(images/welcome-bg.jpg);">
+    <div id="home-search-section" class="home-search-section-area bg-image home-header-one" style="background-image: url({{url('public/images/welcome-bg.jpg')}});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
 
                     <div class="welcome-text text-center tb">
                         <div class="tb-cell">
-                                <img class="img-resposive" src="logo2.png"/>
-
-                            <h1>Result Management and Analysis</h1>
-                            <pr themes =======-->
-    <link href="{{url('style.css')}}" rel="stylesheet">
-    
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body>
-    
-    
-    <!--====Home Search Section
-    ====================================-->
-    <div id="home-search-section" class="home-search-section-area bg-image home-header-one" style="background-image: url(images/welcome-bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <div class="welcome-text text-center tb">
-                        <div class="tb-cell">
-                                <img class="img-resposive" src="logo2.png"/>
+                                <img class="img-resposive" src="{{url('public/logo2.png')}}"/>
 
                             <h1>Result Management and Analysis</h1>
                             <p>Improving the standards of the default learning and teaching processes..</p>
-                            <form class="product-search-form" action="{{url('login')}}" method="get">
+                            <form class="product-search-form" action="login.html" method="get">
                                 <div class="form-group">
-                                    <input class="form-controllar" name="key" placeholder="Type Email Address" type="text">
+                                    <input class="form-controllar" name="key" placeholder="Type Access Key" type="text">
                                     <button class="btn btn-default btn-primary" type="submit">Proceed</button>
 
                                  </div>
                                 </br>
                                 <div class="divider-or text-center">
                                         <span>or</span>
-                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="{{url('login')}}">Get Access Key</a></div>
+                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="register.html">Get Access Key</a></div>
 
                             </form>
                             <!--/.product-search-form-->
@@ -91,16 +68,8 @@
                 </div><!--/.col-lg-12-->
             </div><!--/.row-->
         </div><!--/.container-->
-    </divr themes =======-->
-    <link href="style.css" rel="stylesheet">
-    
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body>
-    
+    </div><!--/#home-search-section-->
+      
     <!--====Services Section
     ====================================-->
     <section id="services-section" class="services-section-area s-pd1">
@@ -116,7 +85,7 @@
 				<div class="col-lg-4 col-md-4">
 					<div class="single-service text-center">
                         <div class="icon">
-				            <img src="images/icon/s-icon1.png" alt="icon">
+				            <img src="{{url('public/images/icon/s-icon1.png')}}" alt="icon">
 				        </div>
 						<h3>Storage</h3>
 						<p>We provide enough storage access for all your data, anytime and anywhere.</p>
@@ -125,7 +94,7 @@
 				<div class="col-lg-4 col-md-4">
 					<div class="single-service text-center">
                         <div class="icon">
-				            <img src="images/icon/s-icon2.png" alt="icon">
+				            <img src="{{url('public/images/icon/s-icon2.png')}}" alt="icon">
 				        </div><!--/.row-->
 						<h3>Security</h3>
 						<p>We provide optimal security for your data, we protect it from breaches and hacks.</p>
@@ -134,7 +103,7 @@
 				<div class="col-lg-4 col-md-4">
 					<div class="single-service text-center">
                         <div class="icon">
-				            <img src="images/icon/s-icon3.png" alt="icon">
+				            <img src="{{url('public/images/icon/s-icon3.png')}}" alt="icon">
 				        </div><!--/.row-->
 						<h3>Management & Analysis</h3>
 						<p>We give you the right tool to manage and analyze results uploaded.</p>
