@@ -6,7 +6,7 @@
 
 <!--=======Page Heading
     ===============================================-->
-    <section class="page-heading-section before-bg bg-image" style="background-image: url(http://bdevs.net/edulab/edulab/images/header/p-header3.jpg);">
+    <section class="page-heading-section before-bg bg-image" style="background-image: url({{url('public/images/header/p-header3.jpg')}});">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -38,6 +38,18 @@
                                         @enderror
                                     </div>
                                 </p>
+                                <p>
+
+                                        <div class="">
+                                            <input placeholder="School Name" id="school" type="text" class="form-control @error('school') is-invalid @enderror" name="school" value="{{ old('school') }}" required autocomplete="school" autofocus>
+            
+                                            @error('school')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
+                                        </div>
+                                    </p>
                             <p> 
 
                                 <div class="">
@@ -48,6 +60,17 @@
                                             <strong>{{ $message }}</strong>
                                         </span>
                                     @enderror
+                                </div>
+                            </p>
+                            <p>
+                                    <div class="">
+                                    <input placeholder="Phone Number" id="phone_number" type="tel" class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
+                             
+                                @error('phone_number')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                 </div>
                             </p>
                             <p>
