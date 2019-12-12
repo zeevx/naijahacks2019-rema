@@ -41,9 +41,9 @@
                                 <p>
 
                                         <div class="">
-                                            <input placeholder="School Name" id="s_name" type="text" class="form-control @error('s_name') is-invalid @enderror" name="s_name" value="{{ old('s_name') }}" required autocomplete="s_name" autofocus>
+                                            <input placeholder="School Name" id="school" type="text" class="form-control @error('school') is-invalid @enderror" name="school" value="{{ old('school') }}" required autocomplete="school" autofocus>
             
-                                            @error('s_name')
+                                            @error('school')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $message }}</strong>
                                                 </span>
