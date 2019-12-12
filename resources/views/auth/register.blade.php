@@ -64,9 +64,9 @@
                             </p>
                             <p>
                                     <div class="">
-                                    <input placeholder="Phone Number" id="name" type="tel" class="form-control" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
+                                    <input placeholder="Phone Number" id="phone_number" type="tel" class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
                              
-                                 @error('phone_number')
+                                @error('phone_number')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
