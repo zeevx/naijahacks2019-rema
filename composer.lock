@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08c6922cb7eafbe3bead2d272eef14f6",
+    "content-hash": "ce323050c449360cbfb770f6c4485644",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3877,7 +3877,7 @@
         },
         {
             "name": "nexmo/laravel",
-            "version": "dev-master",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nexmo/nexmo-laravel.git",
@@ -5905,18 +5905,9 @@
             "time": "2019-11-13T19:16:13+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.0",
-            "alias_normalized": "1.0.0.0",
-            "version": "9999999-dev",
-            "package": "nexmo/laravel"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "nexmo/laravel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

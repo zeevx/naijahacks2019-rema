@@ -21,7 +21,7 @@
         "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^8.0",
         "nexmo/client": "^2.0",
-        "nexmo/laravel": "dev-master as 1.0"    },
+        "nexmo/laravel": "^2.0"    },
     
     "config": {
         "optimize-autoloader": true,

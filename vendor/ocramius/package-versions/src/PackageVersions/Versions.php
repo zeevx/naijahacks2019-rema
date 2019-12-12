@@ -85,7 +85,7 @@ final class Versions
   'myclabs/deep-copy' => '1.9.3@007c053ae6f31bba39dfa19a7726f56e9763bbea',
   'nexmo/client' => '2.0.0@664082abac14f6ab9ceec9abaf2e00aeb7c17333',
   'nexmo/client-core' => '2.1.0@ef7e8a0715c93c5ddc7915e8a29f29331798bb52',
-  'nexmo/laravel' => 'dev-master@d05faa716133b49975907848ed4c79f85033a1f9',
+  'nexmo/laravel' => '2.1.0@d05faa716133b49975907848ed4c79f85033a1f9',
   'nunomaduro/collision' => 'v3.0.1@af42d339fe2742295a54f6fdd42aaa6f8c4aca68',
   'ocramius/package-versions' => '1.5.1@1d32342b8c1eb27353c8887c366147b4c2da673c',
   'phar-io/manifest' => '1.0.3@7761fcacf03b4d4f16e7ccb606d4879ca431fcf4',
@@ -123,7 +123,7 @@ final class Versions
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webmozart/assert' => '1.6.0@573381c0a64f155a0d9a23f4b0c797194805b925',
   'zendframework/zend-diactoros' => '2.2.1@de5847b068362a88684a55b0dbb40d85986cfa52',
-  'laravel/laravel' => 'dev-day4-implement@35d56a07fd51e1df50edcb649295b91d2f37c9bb',
+  'laravel/laravel' => 'dev-day4-implement@0d4530ddfc08605b55691ab6477f9bda03d5242a',
 );
 
     private function __construct()
