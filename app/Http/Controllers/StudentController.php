@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Students;
 use Illuminate\Http\Request;
 
 class StudentController extends Controller
@@ -26,5 +27,14 @@ class StudentController extends Controller
     public function add()
     {
         return view('dashboard.student.add');
+    }
+
+    public function store(request $request)
+    {
+        Students::create([
+            "name" => $request->name,
+            "class" => $request->class
+                        ]);
+        return redirect("student");
     }
 }
