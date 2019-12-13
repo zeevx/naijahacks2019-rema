@@ -16,7 +16,15 @@
     </section><!--/.page-heading-area-->
     
     @php
+    if isset($_GET['']){
+         
      $email = $_GET['key'];
+
+    }
+    else{
+
+        $email = "";
+    }
     @endphp
     <div class="login-page page-wrapper s-pd100">
         <div class="container">
