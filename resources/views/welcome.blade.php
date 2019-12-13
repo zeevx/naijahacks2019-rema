@@ -58,7 +58,7 @@
                                 </br>
                                 <div class="divider-or text-center">
                                         <span>or</span>
-                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="{{url('register')}}">Get Access Key</a></div>
+                                    </div>  <div class=""><a class="btn btn-default btn-primary" href="{{url('register')}}">Get Access</a></div>
 
                             </form>
                             <!--/.product-search-form-->

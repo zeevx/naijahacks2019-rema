@@ -12,16 +12,11 @@
 
 
 
-### ScreenShots for day 2
+### Day 4 Updates
 
-**Home Page**
-![HomePage Screenshots](/screenshots/Home_page_screenshot.png)
+*We Updated our UI/UX by adding it to our proposed stack(Laravel).
+*We Added required pages.
 
-**Login Page**
-![LoginPage Screenshots](/screenshots/Login_page_screenshot.png)
-
-**Registration Page**
-![RegisterPage Screenshots](/screenshots/Register_page_screenshot.png)
 
 ### Project Description
  Learning and teaching organizations(e.g schools) find it difficult to handle results of past students, we have built a system that provide this organizations the ability to store results for as long as possible, the system doesn't just store student result during the course of study but it also uses this data to intelligently(AI) **tell where the student is performing less**, **suggest possible solutions** and **provide insight on how to carry out the solutions**. We are making learning and teaching easier.

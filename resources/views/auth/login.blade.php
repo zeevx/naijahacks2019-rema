@@ -15,7 +15,9 @@
         </div><!--/.container-->
     </section><!--/.page-heading-area-->
     
-    
+    @php
+     $email = $_GET['key'];
+    @endphp
     <div class="login-page page-wrapper s-pd100">
         <div class="container">
             <div class="row justify-content-center">
@@ -23,7 +25,7 @@
                     <div class="login-form-area">
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
-                            <p><input id="email" type="email" placeholder="Enter your email address" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            <p><input id="email" type="email" placeholder="Enter your email address" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email }}" required autocomplete="email" autofocus>
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
