@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="page-heading">
-                        <h2 class="page-name text-capitalize">Dashboard</h2>
+                        <h2 class="page-name text-capitalize">School Dashboard</h2>
                     </div><!--/.page-heading-->
                 </div><!--/.col-md-12-->
             </div><!--/.row-->
