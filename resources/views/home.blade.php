@@ -28,7 +28,7 @@
                     </div><!--/.row-->
                    <div class="row pt-4">
                         <div class="col-lg-6">
-                            <a href="https://www.youtube.com/watch?v=Ey1lkwYGSC0" class="video-btn">
+                            <a href="{{url('teacher')}}" class="video-btn">
                                 <img class="img-fluid" src="public/teachers.jpg" alt="img">
                                 
                             </a>                                       
@@ -39,7 +39,7 @@
                                 <p>Add Teachers, Edit teachers,
                                     Add Classes, Edit classes....</p>
                                 <div class="featured-bottom">
-                                    <a class="btn btn-default btn-primary" href="#">Proceed</a>
+                                <a class="btn btn-default btn-primary" href="{{url('teacher')}}">Proceed</a>
                                 </div>
                             </div><!--/.featured-course-content-->
                         </div><!--/.col-lg-6-->
