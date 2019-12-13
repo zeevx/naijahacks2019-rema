@@ -17,6 +17,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
+Route::get('/school', 'SchoolController@index')->name('school');
+
+Route::get('/teacher', 'TeacherController@index')->name('teacher');
+
+Route::get('/subject', 'SubjectController@index')->name('Subject');
+
+Route::get('/analysis', 'AnalysisController@index')->name('analysis');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/sms/send/{to}', function(\Nexmo\Client $nexmo, $to){
