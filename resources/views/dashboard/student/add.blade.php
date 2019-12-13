@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="page-heading">
-                        <h2 class="page-name text-capitalize">Add Teacher</h2>
+                        <h2 class="page-name text-capitalize">Add Student</h2>
                     </div><!--/.page-heading-->
                     <a class="btn btn-default btn-primary" href="{{url('home')}}">Back to Dashboard</a>
                 </div><!--/.col-md-12-->
@@ -44,10 +44,9 @@
                                         <div class="">
                                             <div class="form-group">
                                               <select multiple class="form-control" name="subject" id="">
-                                                <option>Select Subject</option>
-                                                <option>Mathematics</option>
-                                                <option>English</option>
-                                                <option>Physics</option>
+                                                <option>Select Class</option>
+                                                <option>J.S.S One(1)</option>
+                                                <option>J.S.S Two(2)</option>
                                               </select>
                                             </div>
                                             @error('school')
@@ -59,40 +58,7 @@
                                     </p>
                             <p> 
 
-                                <div class="">
-                                    <input placeholder="Email" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-    
-                                    @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
-                                </div>
-                            </p>
-                            <p>
-                                    <div class="">
-                                    <input placeholder="Phone Number" id="phone_number" type="tel" class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
-                             
-                                @error('phone_number')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                                </div>
-                            </p>
-                            <p>
-
-                                <div class="">
-                                    <input placeholder="Password" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-    
-                                    @error('password')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
-                                </div>
-                            </p>
-                            
+                               
                             <p><button class="btn btn-default btn-primary" type="submit">Add Teacher</button></p>
                             
                         </form>
