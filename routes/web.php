@@ -21,8 +21,13 @@ Auth::routes();
 Route::get('/school', 'SchoolController@index')->name('school');
 
 Route::get('/teacher', 'TeacherController@index')->name('teacher');
+Route::get('/teacher/add', 'TeacherController@add')->name('teacher.add');
 
 Route::get('/subject', 'SubjectController@index')->name('Subject');
+
+Route::get('/student', 'StudentController@index')->name('student');
+Route::get('/student/add', 'StudentController@add')->name('student.add');
+
 
 Route::get('/analysis', 'AnalysisController@index')->name('analysis');
 

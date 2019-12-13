@@ -19,38 +19,40 @@
  <div class="container"> 
  </br>
  <center>
-     <a class="btn btn-default btn-primary" href="{{url('teacher/add')}}">Add Teacher</a>
+     <a class="btn btn-default btn-primary" href="{{url('teacher/add')}}">Add Student</a>
  </center>
 </br>
     <table id="table" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Phone Number</th>
-                <th>Subject</th>
+                <th>Class</th>
                 <th>Action</th>
                 
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Mr Adams</td>
-                <td>2349035875967</td>
-                <td>Mathematics</td>
+                <td>Adams Paul</td>
+                <td>J.S.S One (1)</td>
                 <td>     
-                    <a class="btn btn-default btn-primary" href="#">Edit</a>
+                    <div class="float"><a class="btn btn-default btn-primary" href="#">Edit</a>
                 </br>
-                    <a class="btn btn-default btn-primary" href="#">Delete</a>
+                 <a class="btn btn-default btn-primary" href="#">Delete</a>
+                    </br>
+                    <a class="btn btn-default btn-primary" href="#">Analyze</a>
+                </div>
                 </td>
             </tr>
             <tr>
-                <td>Mrs Adeyemo</td>
-                <td>2349021344455</td>
-                <td>Physics</td>
+                <td>Adeyemo Praise</td>
+                <td>J.S.S Two (2)</td>
                 <td>     
                         <a class="btn btn-default btn-primary" href="#">Edit</a>
                         </br>
                         <a class="btn btn-default btn-primary" href="#">Delete</a>
+                    </br>
+                    <a class="btn btn-default btn-primary" href="#">Analyze</a>
                     </td>
             </tr>
         </tbody>

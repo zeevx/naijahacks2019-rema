@@ -58,7 +58,7 @@
                                     <p>Add students, Edit students, Assign students, View ScoreSheets...</p>
                                     
                                     <div class="featured-bottom">
-                                        <a class="btn btn-default btn-primary" href="#">Proceed</a>
+                                        <a class="btn btn-default btn-primary" href="{{url('student')}}">Proceed</a>
                                     </div>
                                 </div><!--/.featured-course-content-->
                             </div><!--/.col-lg-6-->
@@ -76,7 +76,7 @@
                                             <h2>Analysis</h2>
                                             <p>View and Track Analysis....</p>                                            
                                             <div class="featured-bottom">
-                                                <a class="btn btn-default btn-primary" href="#">Proceed</a>
+                                                <a class="btn btn-default btn-primary" href="{{url('analysis')}}">Proceed</a>
                                             </div>
                                         </div><!--/.featured-course-content-->
                                     </div><!--/.col-lg-6-->
