@@ -21,6 +21,7 @@
     
     <!--======= Bootstrap Main Css =============-->
     <link href="{{url('public/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap.min.css" rel="stylesheet">
     
     <!--====== Plugins Css ================-->
     <link href="{{url('public/css/plugins.css')}}" rel="stylesheet">
@@ -32,6 +33,11 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <script src="{{url('public/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+    <script>
+        $(document).ready(function() {
+        $('#table').DataTable();
+    } );
+    </script>
 </head>
 <body>
     
