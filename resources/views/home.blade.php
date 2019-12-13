@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="page-heading">
-                        <h2 class="page-name text-capitalize">Dashboard</h2>
+                        <h2 class="page-name text-capitalize">School Dashboard</h2>
                     </div><!--/.page-heading-->
                 </div><!--/.col-md-12-->
             </div><!--/.row-->
@@ -35,9 +35,9 @@
                         </div><!--/.col-lg-6-->
                         <div class="col-lg-6">
                             <div class="featured-course-content">
-                                <h2>Teachers and Classes</h2>
-                                <p>Add Teachers, Edit teachers,
-                                    Add Classes, Edit classes....</p>
+                                <h2>Teachers</h2>
+                                <p>Add Teachers and Edit teachers
+                                </p>
                                 <div class="featured-bottom">
                                 <a class="btn btn-default btn-primary" href="{{url('teacher')}}">Proceed</a>
                                 </div>
@@ -63,24 +63,6 @@
                                 </div><!--/.featured-course-content-->
                             </div><!--/.col-lg-6-->
                         </div><!--/.row-->
-
-                        <div class="row pt-4">
-                                <div class="col-lg-6">
-                                    <a href="https://www.youtube.com/watch?v=Ey1lkwYGSC0" class="video-btn">
-                                        <img class="img-fluid" src="public/subjects.jpg" alt="img">
-                                      
-                                    </a>                                       
-                                </div><!--/.col-lg-6-->
-                                <div class="col-lg-6">
-                                    <div class="featured-course-content">
-                                        <h2>Subjects & Topics</h2>
-                                        <p>Add Subjects, Edit Subjects, Assign Subjects to teacher, Add topics...</p>                                   
-                                        <div class="featured-bottom">
-                                            <a class="btn btn-default btn-primary" href="#">Proceed</a>
-                                        </div>
-                                    </div><!--/.featured-course-content-->
-                                </div><!--/.col-lg-6-->
-                            </div><!--/.row-->
 
                             <div class="row pt-4">
                                     <div class="col-lg-6">
