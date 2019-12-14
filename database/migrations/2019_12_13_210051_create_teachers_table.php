@@ -21,6 +21,10 @@ class CreateTeachersTable extends Migration
             $table->string('password');
             $table->string('class');
             $table->string('subject');
+            $table->timestamps('created_at');
+            $table->timestamps('updated_at');
+
+
 
         });
     }

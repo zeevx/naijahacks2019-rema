@@ -44,6 +44,8 @@ Route::post('/student/store', 'StudentController@store')->name('student.store');
 
 
 Route::get('/analysis', 'AnalysisController@index')->name('analysis');
+Route::get('/analysis/view', 'AnalysisController@show')->name('analysis.view');
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 

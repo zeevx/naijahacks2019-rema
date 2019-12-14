@@ -123,7 +123,7 @@ final class Versions
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webmozart/assert' => '1.6.0@573381c0a64f155a0d9a23f4b0c797194805b925',
   'zendframework/zend-diactoros' => '2.2.1@de5847b068362a88684a55b0dbb40d85986cfa52',
-  'laravel/laravel' => 'dev-day4-implement@ec5dce90b8863fa2931541c3d13cbfa2e0fa0f93',
+  'laravel/laravel' => 'dev-day4-implement@d65a2a617a9e4025167047b96d4a9ea63650f90a',
 );
 
     private function __construct()
