@@ -32,9 +32,10 @@
             </tr>
         </thead>
         <tbody>
+                @foreach($student as $stu)
             <tr>
-                <td>Adams Paul</td>
-                <td>J.S.S One (1)</td>
+                <td>{{ $stu->name }}</td>
+                <td>{{ $stu->class }}</td>
                 <td>     
                     <div class="float"><a class="btn btn-default btn-primary" href="#">Edit</a>
                 </br>
@@ -44,23 +45,14 @@
                 </div>
                 </td>
             </tr>
-            <tr>
-                <td>Adeyemo Praise</td>
-                <td>J.S.S Two (2)</td>
-                <td>     
-                        <a class="btn btn-default btn-primary" href="#">Edit</a>
-                        </br>
-                        <a class="btn btn-default btn-primary" href="#">Delete</a>
-                    </br>
-                    <a class="btn btn-default btn-primary" href="#">Analyze</a>
-                    </td>
-            </tr>
+            @endforeach
+            
+        </tr>
         </tbody>
         <tfoot>
             <tr>
                     <th>Name</th>
-                    <th>Phone Number</th>
-                    <th>Subject</th>        
+                    <th>Class</th>
                     <th>Action</th>
 
                     

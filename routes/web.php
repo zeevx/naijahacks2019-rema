@@ -11,6 +11,7 @@
 |
 */
 
+use App\Students;
 use App\Teachers;
 
 Route::get('/', function () {
@@ -22,19 +23,24 @@ Auth::routes();
 
 Route::get('/school', 'SchoolController@index')->name('school');
 
-Route::get('/teacher', 'TeacherController@index')->name('teacher');
 Route::get('/teacher', function () {
-    $teacher = Teachers::orderBy('created_at', 'desc')->paginate(10);
+    $teacher = Teachers::all();
      return view('dashboard.teacher.index', compact('teacher'));
 });
 Route::get('/teacher/add', 'TeacherController@add')->name('teacher.add');
 Route::post('/teacher/store', 'TeacherController@store')->name('teacher.store');
 
 
+
 Route::get('/subject', 'SubjectController@index')->name('Subject');
 
-Route::get('/student', 'StudentController@index')->name('student');
+
+Route::get('/student', function () {
+    $student = Students::all();
+     return view('dashboard.student.index', compact('student'));
+});
 Route::get('/student/add', 'StudentController@add')->name('student.add');
+Route::post('/student/store', 'StudentController@store')->name('student.store');
 
 
 Route::get('/analysis', 'AnalysisController@index')->name('analysis');

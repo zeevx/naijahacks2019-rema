@@ -16,7 +16,7 @@
     </section><!--/.page-heading-area-->
     
     @php
-    if isset($_GET['']){
+    if (isset($_GET['key'])){
          
      $email = $_GET['key'];
 

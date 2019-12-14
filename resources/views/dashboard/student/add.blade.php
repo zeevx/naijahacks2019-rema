@@ -25,7 +25,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="login-form-area">
-                            <form method="POST" action="{{ url('teacher') }}">
+                            <form method="POST" action="{{ url('student/store') }}">
                                     @csrf
                                 <p>
 
@@ -43,13 +43,13 @@
 
                                         <div class="">
                                             <div class="form-group">
-                                              <select multiple class="form-control" name="subject" id="">
+                                              <select multiple class="form-control" name="class" id="">
                                                 <option>Select Class</option>
                                                 <option>J.S.S One(1)</option>
                                                 <option>J.S.S Two(2)</option>
                                               </select>
                                             </div>
-                                            @error('school')
+                                            @error('class')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $message }}</strong>
                                                 </span>
@@ -59,7 +59,7 @@
                             <p> 
 
                                
-                            <p><button class="btn btn-default btn-primary" type="submit">Add Teacher</button></p>
+                            <p><button class="btn btn-default btn-primary" type="submit">Add Student</button></p>
                             
                         </form>
                     </div><!--/.login-form-area-->

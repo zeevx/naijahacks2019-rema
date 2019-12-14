@@ -35,6 +35,6 @@ class StudentController extends Controller
             "name" => $request->name,
             "class" => $request->class
                         ]);
-        return redirect("student");
+        return redirect("student")->with('success','Teacher Profile created successfully');
     }
 }
