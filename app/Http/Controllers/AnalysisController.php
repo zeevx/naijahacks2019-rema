@@ -23,7 +23,7 @@ class AnalysisController extends Controller
         return view('dashboard.analysis.index');
     }
 
-    public function view()
+    public function show()
     {
         return view('dashboard.analysis.view');
     }
