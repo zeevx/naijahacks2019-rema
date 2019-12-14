@@ -32,7 +32,7 @@
                 <td>Adams Paul</td>
                 <td>J.S.S One(1)</td>
                 <td>     
-                    <div class="float"><a class="btn btn-default btn-primary" href="#">view</a>
+                <div class="float"><a class="btn btn-default btn-primary" href="{{url('analysis/view')}}">view</a>
                 
                 </div>
                 </td>

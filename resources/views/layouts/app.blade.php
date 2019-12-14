@@ -43,6 +43,9 @@
         $('#table').DataTable();
     } );
     </script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
 </head>
 <body>
         @include('layouts.flash')
