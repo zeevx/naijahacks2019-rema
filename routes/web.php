@@ -11,6 +11,8 @@
 |
 */
 
+use App\Teachers;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,7 +23,13 @@ Auth::routes();
 Route::get('/school', 'SchoolController@index')->name('school');
 
 Route::get('/teacher', 'TeacherController@index')->name('teacher');
+Route::get('/teacher', function () {
+    $teacher = Teachers::orderBy('created_at', 'desc')->paginate(10);
+     return view('dashboard.teacher.index', compact('teacher'));
+});
 Route::get('/teacher/add', 'TeacherController@add')->name('teacher.add');
+Route::post('/teacher/store', 'TeacherController@store')->name('teacher.store');
+
 
 Route::get('/subject', 'SubjectController@index')->name('Subject');
 
@@ -33,11 +41,4 @@ Route::get('/analysis', 'AnalysisController@index')->name('analysis');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/sms/send/{to}', function(\Nexmo\Client $nexmo, $to){
-    $message = $nexmo->message()->send([
-        'to' => $to,
-        'from' => env('NEXMO_NUMBER'),
-        'text' => 'Sending SMS from Laravel. Woohoo!'
-    ]);
-    Log::info('sent message: ' . $message['message-id']);
-});
+

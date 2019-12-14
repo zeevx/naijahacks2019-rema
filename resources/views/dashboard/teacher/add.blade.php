@@ -25,18 +25,14 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="login-form-area">
-                            <form method="POST" action="{{ url('teacher') }}">
+                            <form method="POST" action="{{ url('teacher/store') }}">
                                     @csrf
                                 <p>
 
                                     <div class="">
                                         <input placeholder="Name" id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
         
-                                        @error('name')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                        @enderror
+                                        
                                     </div>
                                 </p>
                                 <p>
@@ -50,34 +46,34 @@
                                                 <option>Physics</option>
                                               </select>
                                             </div>
-                                            @error('school')
-                                                <span class="invalid-feedback" role="alert">
-                                                    <strong>{{ $message }}</strong>
-                                                </span>
-                                            @enderror
+                                           
+                                        </div>
+                                    </p>
+                                    <p>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                              <select multiple class="form-control" name="class" id="">
+                                                <option>Select Class</option>
+                                                <option>JSS 1</option>
+                                                <option>JSS 2</option>
+                                                <option>SSS 2</option>
+                                              </select>
+                                            </div>
+                                           
                                         </div>
                                     </p>
                             <p> 
 
                                 <div class="">
                                     <input placeholder="Email" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-    
-                                    @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
+
                                 </div>
                             </p>
                             <p>
                                     <div class="">
-                                    <input placeholder="Phone Number" id="phone_number" type="tel" class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" required autofocus>
+                                    <input placeholder="Phone Number" id="phone" type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autofocus>
                              
-                                @error('phone_number')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                                 </div>
                             </p>
                             <p>
@@ -85,11 +81,6 @@
                                 <div class="">
                                     <input placeholder="Password" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
     
-                                    @error('password')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
                                 </div>
                             </p>
                             

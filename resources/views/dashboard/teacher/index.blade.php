@@ -33,26 +33,19 @@
             </tr>
         </thead>
         <tbody>
+                @foreach($teacher as $tch)
             <tr>
-                <td>Mr Adams</td>
-                <td>2349035875967</td>
-                <td>Mathematics</td>
+            <td>{{ $tch->name }}</td>
+            <td>{{ $tch->phone }}</td>
+            <td>{{ $tch->subject }}</td>
                 <td>     
                     <a class="btn btn-default btn-primary" href="#">Edit</a>
                 </br>
                     <a class="btn btn-default btn-primary" href="#">Delete</a>
                 </td>
             </tr>
-            <tr>
-                <td>Mrs Adeyemo</td>
-                <td>2349021344455</td>
-                <td>Physics</td>
-                <td>     
-                        <a class="btn btn-default btn-primary" href="#">Edit</a>
-                        </br>
-                        <a class="btn btn-default btn-primary" href="#">Delete</a>
-                    </td>
-            </tr>
+            @endforeach
+           
         </tbody>
         <tfoot>
             <tr>
@@ -89,3 +82,4 @@
        
     
 @endsection
+@include('layouts.flash')

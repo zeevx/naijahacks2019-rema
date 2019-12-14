@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Teachers;
 
+
 class TeacherController extends Controller
 {
     //
@@ -29,15 +30,24 @@ class TeacherController extends Controller
     {
         return view('dashboard.teacher.add');
     }
-    public function store(request $request)
+    public function store(request $request, \Nexmo\Client $nexmo)
     {
+        
         Teachers::create([
             "name" => $request->name,
             "email" => $request->email,
             "phone" => $request->phone,
+            "password" => $request->password,
             "class" => $request->class,
             "subject" => $request->subject
             ]);
-        return redirect("teacher");
+        
+            $message = $nexmo->message()->send([
+                'to' => $request->phone,
+                'from' => env('NEXMO_NUMBER'),
+                'text' => 'A account have been created for you by your school. Your password is:'.$request->password
+            ]);
+            
+        return redirect("teacher")->with('success','Teacher Profile created successfully');
     }
 }
