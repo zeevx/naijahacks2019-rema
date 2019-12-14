@@ -10,7 +10,12 @@
 * [Day5 - Integration(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day5-integration)
 * [Day6 - DevPost(Completed - check branch)](https://github.com/zeevx/naijahacks2019-rema/tree/day6-devpost)
 
+### APIs and platforms used
 
+* NEXMO SMS API
+* LINODE CLOUD HOSTING
+* .XYZ DOMAIN
+* PHP-AI/ML
 
 ### ScreenShots for day 2
 
