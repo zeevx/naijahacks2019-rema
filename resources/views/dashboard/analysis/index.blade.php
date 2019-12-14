@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="page-heading">
-                        <h2 class="page-name text-capitalize">Student</h2>
+                        <h2 class="page-name text-capitalize">Analysis</h2>
                     </div><!--/.page-heading-->
                     <a class="btn btn-default btn-primary" href="{{url('home')}}">Back to Dashboard</a>
                 </div><!--/.col-md-12-->
@@ -18,10 +18,6 @@
     </section><!--/.page-heading-area-->
  <div class="container"> 
  </br>
- <center>
-     <a class="btn btn-default btn-primary" href="{{url('student/add')}}">Add Student</a>
- </center>
-</br>
     <table id="table" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>

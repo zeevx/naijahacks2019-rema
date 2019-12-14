@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AnalysisController extends Controller
 {
     //
-
+    public function __construct()
     {
         $this->middleware('auth');
     }
