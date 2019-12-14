@@ -27,3 +27,4 @@
 * Adams Paul - Full stack web developer/IOT systems Engineer
 * Olarewaju Mojeed - C++ Developer
 * Ajewole Ayomide - Android Developer
+* Aromolaran Adegoke
